@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Товари для вас</title>
+	
+  <link rel="stylesheet" href="assets/style/bootstrap-icons.css">
+  <link rel="stylesheet" href="assets/style/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/style/style.css">
+
+</head>
+
+<body>
+
+  <nav class="navbar sticky-top navbar-expand-lg bg-dark shadow" data-bs-theme="dark">
+    <div class="container-fluid">
+        <a class="navbar-brand text-uppercase" href="/">Наш магазин</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Перемикання навігації">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/">Головний</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="catalog.html">Каталог</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about">Про нас</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="404.html">Партнер</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="modal" href="#Modal">Вхід</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Пошук" aria-label="Search">
+            <button class="btn btn-outline-secondary" type="submit">Пошук</button>
+          </form>
+        </div>
+    </div>
+  </nav>
+
+  <header class="bg-light">
+    <div class="row justify-content-between align-items-center w-100">
+       <div class="col-7 header-block"></div>
+       <div class="col-5 text-dark">
+        <h1 class="shadow-dark text-uppercase text-sm-center">Наш<br>магазин</h1>
+        <h2 class="text-sm-center text-uppercase">товари для кожного</h2>
+      </div>
+    </div>
+  </header>
+
+  <div id="advantages" class="container-fluid d-flex justify-content-evenly align-items-center text-uppercase text-center my-3 pt-1">
+    <div class="item">
+      <img src="assets/images/advantages/wide-selection.svg" class="img-fluid" alt="wide-selection">
+      <p class="d-none d-md-block">відбір товарів</p>
+    </div>
+    <div class="item">
+      <img src="assets/images/advantages/delivery-car.svg" class="img-fluid" alt="delivery-car">
+      <p class="d-none d-md-block">доставка</p>
+    </div>
+    <div class="item">
+      <img src="assets/images/advantages/quality-assurance.svg" class="img-fluid" alt="quality-assurance">
+      <p class="d-none d-md-block">висока якість</p>
+    </div>
+    <div class="item">
+      <img src="assets/images/advantages/customer-service.svg" class="img-fluid" alt="customer service">
+      <p class="d-none d-md-block">служба підтримки</p>
+    </div>
+  </div>
+
+  <div class="container-fluid py-5 bg-light" id="product">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 justify-content-evenly">
+        <div class="col">
+            <div class="card mt-2">
+                <img src="assets/images/product/photo-1.png" class="card-img-top" alt="Фото товару">
+                <div class="card-body">
+                    <h5 class="card-title">Найкращий товар</h5>
+                    <p class="card-text">Цей товар поєднує в собі найкращі характеристики, забезпечуючи високий рівень якості. З його допомогою ви зможете значно спростити ваше життя.</p> 
+                    <div class="btn-group">
+                      <a class="btn btn-sm btn-outline-secondary" href="item-card.html" role="button">Перегляд</a>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Вподобається</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card mt-2">
+                <img src="assets/images/product/photo-2.png" class="card-img-top" alt="Фото товару">
+                <div class="card-body">
+                    <h5 class="card-title">Прекрасний товар</h5>
+                    <p class="card-text">Цей товар поєднує в собі найкращі характеристики, забезпечуючи високий рівень якості. З його допомогою ви зможете значно спростити ваше життя.</p>
+                    <div class="btn-group">
+                      <a class="btn btn-sm btn-outline-secondary" href="item-card.html" role="button">Перегляд</a>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Вподобається</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card mt-2">
+                <img src="assets/images/product/photo-3.png" class="card-img-top" alt="Фото товару">
+                <div class="card-body">
+                    <h5 class="card-title">Просто товар</h5>
+                    <p class="card-text">Цей товар поєднує в собі найкращі характеристики, забезпечуючи високий рівень якості. З його допомогою ви зможете значно спростити ваше життя.</p>
+                    <div class="btn-group">
+                      <a class="btn btn-sm btn-outline-secondary" href="item-card.html" role="button">Перегляд</a>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Вподобається</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="p-3 justify-content-center text-center">
+        <a class="btn btn-lg btn-outline-secondary" href="catalog.html" role="button">У каталог...</a>
+    </div>
+  </div>
+
+  <div class="container-fluid bg-dark p-5" id="sub">
+    <form class="form-control-lg">
+      <div class="input-group flex-nowrap">
+          <span class="input-group-text bg-dark text-secondary" id="addon-wrapping">@</span>
+          <input type="email" class="form-control" placeholder="Введіть email" aria-label="email" aria-describedby="addon-wrapping">
+          <button class="btn btn-outline-secondary" type="button">Підписатися</button>
+      </div>
+    </form>
+  </div> 
+
+  <div class="container-fluid bg-light p-5" id="about">
+    <div class="row">
+      <div class="col-md-3 col-12 pb-1">
+        <img src="assets/images/about/top.jpg" class="w-100 mb-xl-3 mb-lg-3 mb-md-3 mb-2" alt="about-img">
+        <img src="assets/images/about/bottom.jpg" class="w-100 mb-sm-2" alt="about-img">
+      </div>
+      <div class="col-md-9 col-12 align-self-center">
+        <h1 class="text-uppercase text-center">Трохи<br> про нашу компанію</h1>
+        <p>Наша місія - це не просто продаж товарів, а створення унікального досвіду для кожного клієнта. Ми розуміємо, що в сучасному світі важливими є не тільки якість і ціна, а й сервіс. Тому ми робимо все можливе, щоб ваша покупка була максимально комфортною.
+        <p>Ми ретельно підбираємо кожен товар, щоб гарантувати вам тільки найкраще. Усі наші продукти проходять суворий контроль якості, і наші співробітники завжди готові допомогти вам із вибором.</p>.
+        <p>Ми впевнені, що чесність, прозорість і відповідальність - це основи довгострокових стосунків з нашими клієнтами. Ми цінуємо вашу довіру і прагнемо до того, щоб ваш досвід взаємодії з нами був винятково позитивним.</p> <p>Ми цінуємо вашу довіру і прагнемо до того, щоб ваш досвід взаємодії з нами був виключно позитивним.
+      </div>
+    </div>
+  </div>
+
+
+  <footer class="container-fluid mt-auto py-3 text-bg-dark">
+
+     <div class="row row-cols-md-3 row-cols-1 m-0 align-items-top w-100">
+        <div class="col m-0 text-center">   
+          <nav class="navbar navbar-dark text-center">
+            <div class="container-fluid justify-content-center">
+                <ul class="navbar-nav m-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Головна</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="catalog.html">Каталог</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">Про нас</a>
+                  </li>
+                </ul>
+            </div>
+          </nav>
+        </div>
+
+        <div class="col m-0 text-light text-center">
+            <ul class="list-unstyled">
+              <li>Адреса: г.Одесса, вул. Мала Арнаутська 13</li>
+              <li>E-mail: real-shop@gmail.com</li>
+              <li>Телефон: +380-999-99-99</li>
+              <li>Факс: +380-999-99-98</li>
+            </ul>
+              <!-- Іконки соцмереж довантажуються у форматі svg із сайту w3c -->
+
+              <ul class="list-unstyled list-inline">
+                 <li class="list-inline-item p-1"> 
+                    <a href="#">
+                      <i class="bi bi-whatsapp text-white fs-3"></i>
+                   </a>
+                </li>
+                 <li class="list-inline-item list-inline-item p-1">
+                  <a href="#">
+                    <i class="bi bi-twitter text-white fs-3"></i>
+                 </a>
+                </li>
+                 <li class="list-inline-item p-1">
+                  <a href="#">
+                    <i class="bi bi-facebook text-white fs-3"></i>
+                 </a></li></li>
+                 <li class="list-inline-item p-1">
+                  <a href="#">
+                    <i class="bi bi-instagram text-white fs-3"></i>
+                 </a></li></li>
+              </ul>           
+        </div>
+
+        <div class="col p-0 m-0 text-light">
+         <h1 class="shadow-dark text-uppercase text-center">наш<br>магазин</h1>
+         <h4 class="text-lg-right text-center text-uppercase">товари для кожного</h4>
+        </div>
+    </div>
+
+    <div class="text-center text-light">
+      <span class="text-muted text-light">При створенні сторінки використані зображення з сайту <a href="https://ru.freepik.com/photos/blue" class="text-reset">ru.freepik.com</a> і <a href="https://pixabay.com/" class="text-reset">https://pixabay.com/</a></span>
+    </div>
+
+  </footer>
+
+  
+  <div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="ModalLabel">Ввійдіть або зареєструйтесь</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="form-signin">
+            <form>
+              <div class="form-floating mb-1">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+              </div>
+              <div class="form-floating">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Пароль">
+                <label for="floatingPassword">Пароль</label>
+              </div>
+
+              <div class="checkbox m-2">
+                <label>
+                  <input type="checkbox" value="remember-me"> Запам'ятати
+                </label>
+              </div>
+              <a class="w-100 btn btn-lg btn-danger mb-1" href="personal.html" role="button">Ввійти</a>
+              <button type="button" class="w-100 btn btn-lg btn-secondary" data-bs-dismiss="modal">Закрити</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/js/bootstrap.bundle.min.js"></script>.
+</body>
+</html>

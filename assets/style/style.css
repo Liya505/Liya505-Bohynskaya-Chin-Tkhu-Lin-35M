@@ -1,0 +1,42 @@
+.header-block {
+  position:relative;
+  padding-bottom: 50%; 
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("../images/header_bg.png");
+}
+
+header h2{
+	font-style: italic;
+}
+
+.shadow-dark{
+	text-shadow: 6px 4px 18px rgba(150, 150, 149, 1);
+}
+
+.shadow-light{
+	text-shadow: 6px 4px 18px rgba(255, 255, 255, 1);
+}
+
+#advantages .item{
+  width: 10%;
+}
+
+@media (max-width: 767px) {
+  header h1{font-size: 2em;}
+  header h2{font-size: 1em;}
+}
+@media (768px <= width <= 991px) {
+  header h1 {font-size: 3em;}
+}
+@media (991px <= width <= 1199px) {
+  header h1{font-size: 4em;}
+}
+@media (1200px <= width <= 1700px){
+  header h1{font-size: 6em;}
+}
+@media (min-width: 1700px) {
+  header h1{font-size: 9em;}
+}
+
